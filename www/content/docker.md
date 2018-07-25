@@ -58,6 +58,8 @@ dockers:
     # Skips the docker push. Could be useful if you also do draft releases.
     # Defaults to false.
     skip_push: false
+    # Publish images when in snapshot mode.
+    publish_snapshots: false
     # Path to the Dockerfile (from the project root).
     dockerfile: Dockerfile
     # Template of the docker tag. Defaults to `{{ .Version }}`.
